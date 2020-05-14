@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1B9EF9F246C41C4007EFF08 /* Test_iOS_TCSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9EF9E246C41C4007EFF08 /* Test_iOS_TCSTests.swift */; };
+		A1B9EFA8246C437E007EFF08 /* LoginViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9EFA7246C437E007EFF08 /* LoginViewControllerTest.swift */; };
+		A1B9EFAA246C4427007EFF08 /* LoginInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9EFA9246C4427007EFF08 /* LoginInteractorTest.swift */; };
+		A1B9EFAC246C447F007EFF08 /* LoginWorkerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9EFAB246C447F007EFF08 /* LoginWorkerTest.swift */; };
+		A1B9EFAE246C44F6007EFF08 /* LoginPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9EFAD246C44F6007EFF08 /* LoginPresenterTest.swift */; };
+		A1B9EFB1246C9252007EFF08 /* StatementsViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9EFB0246C9252007EFF08 /* StatementsViewControllerTest.swift */; };
+		A1B9EFB3246C92B4007EFF08 /* StatementsInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9EFB2246C92B4007EFF08 /* StatementsInteractorTest.swift */; };
+		A1B9EFB5246C92F1007EFF08 /* StatementsWorkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9EFB4246C92F1007EFF08 /* StatementsWorkTest.swift */; };
+		A1B9EFB7246C932F007EFF08 /* StatementsPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9EFB6246C932F007EFF08 /* StatementsPresenterTest.swift */; };
+		A1B9EFBA246C945E007EFF08 /* StringExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9EFB9246C945E007EFF08 /* StringExtensionTest.swift */; };
+		A1B9EFBC246C94E6007EFF08 /* DoubleExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9EFBB246C94E6007EFF08 /* DoubleExtensionTest.swift */; };
+		A1B9EFBE246C951B007EFF08 /* DateExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9EFBD246C951B007EFF08 /* DateExtensionTest.swift */; };
 		A1FE3A6C2461B671007672CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FE3A6B2461B671007672CD /* AppDelegate.swift */; };
 		A1FE3A6E2461B671007672CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FE3A6D2461B671007672CD /* SceneDelegate.swift */; };
 		A1FE3A702461B671007672CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FE3A6F2461B671007672CD /* ViewController.swift */; };
@@ -40,7 +52,31 @@
 		A1FE3ABD2461BE6C007672CD /* UILoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FE3ABC2461BE6C007672CD /* UILoader.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A1B9EFA1246C41C4007EFF08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1FE3A602461B670007672CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1FE3A672461B670007672CD;
+			remoteInfo = "Test-iOS-TCS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		A1B9EF9C246C41C4007EFF08 /* Test-iOS-TCSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-iOS-TCSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B9EF9E246C41C4007EFF08 /* Test_iOS_TCSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_iOS_TCSTests.swift; sourceTree = "<group>"; };
+		A1B9EFA0246C41C4007EFF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B9EFA7246C437E007EFF08 /* LoginViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTest.swift; sourceTree = "<group>"; };
+		A1B9EFA9246C4427007EFF08 /* LoginInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorTest.swift; sourceTree = "<group>"; };
+		A1B9EFAB246C447F007EFF08 /* LoginWorkerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorkerTest.swift; sourceTree = "<group>"; };
+		A1B9EFAD246C44F6007EFF08 /* LoginPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterTest.swift; sourceTree = "<group>"; };
+		A1B9EFB0246C9252007EFF08 /* StatementsViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsViewControllerTest.swift; sourceTree = "<group>"; };
+		A1B9EFB2246C92B4007EFF08 /* StatementsInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsInteractorTest.swift; sourceTree = "<group>"; };
+		A1B9EFB4246C92F1007EFF08 /* StatementsWorkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsWorkTest.swift; sourceTree = "<group>"; };
+		A1B9EFB6246C932F007EFF08 /* StatementsPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsPresenterTest.swift; sourceTree = "<group>"; };
+		A1B9EFB9246C945E007EFF08 /* StringExtensionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTest.swift; sourceTree = "<group>"; };
+		A1B9EFBB246C94E6007EFF08 /* DoubleExtensionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtensionTest.swift; sourceTree = "<group>"; };
+		A1B9EFBD246C951B007EFF08 /* DateExtensionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensionTest.swift; sourceTree = "<group>"; };
 		A1FE3A682461B670007672CD /* Test-iOS-TCS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-iOS-TCS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FE3A6B2461B671007672CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1FE3A6D2461B671007672CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +113,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A1B9EF99246C41C4007EFF08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1FE3A652461B670007672CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -87,10 +130,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1B9EF9D246C41C4007EFF08 /* Test-iOS-TCSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9EFA6246C42E2007EFF08 /* Login */,
+				A1B9EFAF246C922F007EFF08 /* Statements */,
+				A1B9EFB8246C9357007EFF08 /* Extensions */,
+				A1B9EF9E246C41C4007EFF08 /* Test_iOS_TCSTests.swift */,
+				A1B9EFA0246C41C4007EFF08 /* Info.plist */,
+			);
+			path = "Test-iOS-TCSTests";
+			sourceTree = "<group>";
+		};
+		A1B9EFA6246C42E2007EFF08 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9EFA7246C437E007EFF08 /* LoginViewControllerTest.swift */,
+				A1B9EFA9246C4427007EFF08 /* LoginInteractorTest.swift */,
+				A1B9EFAB246C447F007EFF08 /* LoginWorkerTest.swift */,
+				A1B9EFAD246C44F6007EFF08 /* LoginPresenterTest.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A1B9EFAF246C922F007EFF08 /* Statements */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9EFB0246C9252007EFF08 /* StatementsViewControllerTest.swift */,
+				A1B9EFB2246C92B4007EFF08 /* StatementsInteractorTest.swift */,
+				A1B9EFB4246C92F1007EFF08 /* StatementsWorkTest.swift */,
+				A1B9EFB6246C932F007EFF08 /* StatementsPresenterTest.swift */,
+			);
+			path = Statements;
+			sourceTree = "<group>";
+		};
+		A1B9EFB8246C9357007EFF08 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9EFB9246C945E007EFF08 /* StringExtensionTest.swift */,
+				A1B9EFBB246C94E6007EFF08 /* DoubleExtensionTest.swift */,
+				A1B9EFBD246C951B007EFF08 /* DateExtensionTest.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		A1FE3A5F2461B670007672CD = {
 			isa = PBXGroup;
 			children = (
 				A1FE3A6A2461B670007672CD /* Test-iOS-TCS */,
+				A1B9EF9D246C41C4007EFF08 /* Test-iOS-TCSTests */,
 				A1FE3A692461B670007672CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				A1FE3A682461B670007672CD /* Test-iOS-TCS.app */,
+				A1B9EF9C246C41C4007EFF08 /* Test-iOS-TCSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,6 +314,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A1B9EF9B246C41C4007EFF08 /* Test-iOS-TCSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B9EFA5246C41C4007EFF08 /* Build configuration list for PBXNativeTarget "Test-iOS-TCSTests" */;
+			buildPhases = (
+				A1B9EF98246C41C4007EFF08 /* Sources */,
+				A1B9EF99246C41C4007EFF08 /* Frameworks */,
+				A1B9EF9A246C41C4007EFF08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B9EFA2246C41C4007EFF08 /* PBXTargetDependency */,
+			);
+			name = "Test-iOS-TCSTests";
+			productName = "Test-iOS-TCSTests";
+			productReference = A1B9EF9C246C41C4007EFF08 /* Test-iOS-TCSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A1FE3A672461B670007672CD /* Test-iOS-TCS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1FE3A7C2461B672007672CD /* Build configuration list for PBXNativeTarget "Test-iOS-TCS" */;
@@ -252,6 +359,10 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Ewerton Rabello";
 				TargetAttributes = {
+					A1B9EF9B246C41C4007EFF08 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = A1FE3A672461B670007672CD;
+					};
 					A1FE3A672461B670007672CD = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -271,11 +382,19 @@
 			projectRoot = "";
 			targets = (
 				A1FE3A672461B670007672CD /* Test-iOS-TCS */,
+				A1B9EF9B246C41C4007EFF08 /* Test-iOS-TCSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A1B9EF9A246C41C4007EFF08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1FE3A662461B670007672CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,6 +408,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A1B9EF98246C41C4007EFF08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B9EFBA246C945E007EFF08 /* StringExtensionTest.swift in Sources */,
+				A1B9EFBE246C951B007EFF08 /* DateExtensionTest.swift in Sources */,
+				A1B9EFA8246C437E007EFF08 /* LoginViewControllerTest.swift in Sources */,
+				A1B9EFBC246C94E6007EFF08 /* DoubleExtensionTest.swift in Sources */,
+				A1B9EFB3246C92B4007EFF08 /* StatementsInteractorTest.swift in Sources */,
+				A1B9EFAA246C4427007EFF08 /* LoginInteractorTest.swift in Sources */,
+				A1B9EFB7246C932F007EFF08 /* StatementsPresenterTest.swift in Sources */,
+				A1B9EFB1246C9252007EFF08 /* StatementsViewControllerTest.swift in Sources */,
+				A1B9EF9F246C41C4007EFF08 /* Test_iOS_TCSTests.swift in Sources */,
+				A1B9EFAC246C447F007EFF08 /* LoginWorkerTest.swift in Sources */,
+				A1B9EFB5246C92F1007EFF08 /* StatementsWorkTest.swift in Sources */,
+				A1B9EFAE246C44F6007EFF08 /* LoginPresenterTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1FE3A642461B670007672CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,6 +464,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A1B9EFA2246C41C4007EFF08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1FE3A672461B670007672CD /* Test-iOS-TCS */;
+			targetProxy = A1B9EFA1246C41C4007EFF08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		A1FE3A762461B672007672CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -338,6 +484,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A1B9EFA3246C41C4007EFF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Test-iOS-TCSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ewertonrabello.Test-iOS-TCSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test-iOS-TCS.app/Test-iOS-TCS";
+			};
+			name = Debug;
+		};
+		A1B9EFA4246C41C4007EFF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Test-iOS-TCSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ewertonrabello.Test-iOS-TCSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test-iOS-TCS.app/Test-iOS-TCS";
+			};
+			name = Release;
+		};
 		A1FE3A7A2461B672007672CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -491,6 +675,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A1B9EFA5246C41C4007EFF08 /* Build configuration list for PBXNativeTarget "Test-iOS-TCSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B9EFA3246C41C4007EFF08 /* Debug */,
+				A1B9EFA4246C41C4007EFF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A1FE3A632461B670007672CD /* Build configuration list for PBXProject "Test-iOS-TCS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
